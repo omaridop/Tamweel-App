@@ -1,0 +1,54 @@
+{
+    "user_id": "918d5df0-7842-4043-952e-11e68a9d3fe4",
+    "name": "رامي النعيمات",
+    "profile_type": "poor",
+    "alternative_data": {
+        "bill_payments": [
+            {
+                "biller": "Electricity",
+                "amount_jod": 34,
+                "status": "On-time",
+                "month": "2026-01"
+            },
+            {
+                "biller": "Water",
+                "amount_jod": 39,
+                "status": "Late",
+                "month": "2026-02"
+            },
+            {
+                "biller": "Orange",
+                "amount_jod": 26,
+                "status": "Late",
+                "month": "2026-03"
+            }
+        ],
+        "income_transfers": [
+            {
+                "source": "CliQ Transfer",
+                "amount_jod": 114,
+                "date": "2026-03-15"
+            },
+            {
+                "source": "CliQ Transfer",
+                "amount_jod": 120,
+                "date": "2026-05-15"
+            },
+            {
+                "source": "CliQ Transfer",
+                "amount_jod": 78,
+                "date": "2026-05-15"
+            },
+            {
+                "source": "ZainCash Deposit",
+                "amount_jod": 134,
+                "date": "2026-03-15"
+            },
+            {
+                "source": "CliQ Transfer",
+                "amount_jod": 104,
+                "date": "2026-05-15"
+            }
+        ]
+    }
+}

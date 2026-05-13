@@ -1,0 +1,56 @@
+{
+    "user_id": "e45aaa17-5e10-4224-aef8-02cef13edf32",
+    "name": "علي النعيمات",
+    "profile_type": "excellent",
+    "alternative_data": {
+        "bill_payments": [
+            {
+                "biller": "Orange",
+                "amount_jod": 30,
+                "status": "On-time",
+                "month": "2026-02"
+            },
+            {
+                "biller": "Orange",
+                "amount_jod": 53,
+                "status": "On-time",
+                "month": "2026-01"
+            },
+            {
+                "biller": "Zain",
+                "amount_jod": 49,
+                "status": "On-time",
+                "month": "2026-04"
+            },
+            {
+                "biller": "Zain",
+                "amount_jod": 60,
+                "status": "On-time",
+                "month": "2026-04"
+            },
+            {
+                "biller": "Water",
+                "amount_jod": 29,
+                "status": "On-time",
+                "month": "2026-05"
+            }
+        ],
+        "income_transfers": [
+            {
+                "source": "CliQ Transfer",
+                "amount_jod": 510,
+                "date": "2026-02-15"
+            },
+            {
+                "source": "ZainCash Deposit",
+                "amount_jod": 600,
+                "date": "2026-01-15"
+            },
+            {
+                "source": "CliQ Transfer",
+                "amount_jod": 593,
+                "date": "2026-01-15"
+            }
+        ]
+    }
+}

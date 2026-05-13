@@ -1,0 +1,61 @@
+{
+    "user_id": "b41e5218-1b7e-441b-a2ce-6abde47aec72",
+    "name": "أحمد الزعبي",
+    "profile_type": "poor",
+    "alternative_data": {
+        "bill_payments": [
+            {
+                "biller": "Zain",
+                "amount_jod": 54,
+                "status": "On-time",
+                "month": "2026-03"
+            },
+            {
+                "biller": "Zain",
+                "amount_jod": 53,
+                "status": "On-time",
+                "month": "2026-01"
+            },
+            {
+                "biller": "Orange",
+                "amount_jod": 31,
+                "status": "On-time",
+                "month": "2026-05"
+            },
+            {
+                "biller": "Electricity",
+                "amount_jod": 28,
+                "status": "Late",
+                "month": "2026-03"
+            },
+            {
+                "biller": "Electricity",
+                "amount_jod": 19,
+                "status": "On-time",
+                "month": "2026-04"
+            }
+        ],
+        "income_transfers": [
+            {
+                "source": "ZainCash Deposit",
+                "amount_jod": 144,
+                "date": "2026-05-15"
+            },
+            {
+                "source": "ZainCash Deposit",
+                "amount_jod": 136,
+                "date": "2026-04-15"
+            },
+            {
+                "source": "ZainCash Deposit",
+                "amount_jod": 126,
+                "date": "2026-02-15"
+            },
+            {
+                "source": "CliQ Transfer",
+                "amount_jod": 71,
+                "date": "2026-02-15"
+            }
+        ]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "user_id": "984eb3ea-d705-4995-8150-72c0f05f90b5",
+    "name": "ليلى العتوم",
+    "profile_type": "average",
+    "alternative_data": {
+        "bill_payments": [
+            {
+                "biller": "Water",
+                "amount_jod": 20,
+                "status": "Late",
+                "month": "2026-03"
+            },
+            {
+                "biller": "Water",
+                "amount_jod": 20,
+                "status": "Late",
+                "month": "2026-01"
+            },
+            {
+                "biller": "Water",
+                "amount_jod": 34,
+                "status": "On-time",
+                "month": "2026-03"
+            },
+            {
+                "biller": "Electricity",
+                "amount_jod": 17,
+                "status": "On-time",
+                "month": "2026-01"
+            }
+        ],
+        "income_transfers": [
+            {
+                "source": "ZainCash Deposit",
+                "amount_jod": 180,
+                "date": "2026-05-15"
+            },
+            {
+                "source": "CliQ Transfer",
+                "amount_jod": 302,
+                "date": "2026-03-15"
+            },
+            {
+                "source": "CliQ Transfer",
+                "amount_jod": 243,
+                "date": "2026-01-15"
+            }
+        ]
+    }
+}

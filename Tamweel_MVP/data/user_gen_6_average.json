@@ -1,0 +1,57 @@
+{
+    "user_id": "177b9ea1-5a0a-4004-8d05-b809efcaaf5d",
+    "name": "سارة المجالي",
+    "profile_type": "average",
+    "alternative_data": {
+        "bill_payments": [
+            {
+                "biller": "Electricity",
+                "amount_jod": 18,
+                "status": "Late",
+                "month": "2026-03"
+            },
+            {
+                "biller": "Zain",
+                "amount_jod": 54,
+                "status": "Late",
+                "month": "2026-05"
+            },
+            {
+                "biller": "Zain",
+                "amount_jod": 16,
+                "status": "On-time",
+                "month": "2026-02"
+            },
+            {
+                "biller": "Orange",
+                "amount_jod": 57,
+                "status": "On-time",
+                "month": "2026-01"
+            },
+            {
+                "biller": "Zain",
+                "amount_jod": 15,
+                "status": "On-time",
+                "month": "2026-01"
+            },
+            {
+                "biller": "Water",
+                "amount_jod": 28,
+                "status": "On-time",
+                "month": "2026-02"
+            }
+        ],
+        "income_transfers": [
+            {
+                "source": "CliQ Transfer",
+                "amount_jod": 250,
+                "date": "2026-01-15"
+            },
+            {
+                "source": "CliQ Transfer",
+                "amount_jod": 290,
+                "date": "2026-01-15"
+            }
+        ]
+    }
+}

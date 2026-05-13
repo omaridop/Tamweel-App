@@ -1,0 +1,117 @@
+{
+  "orange_money_rules": {
+    "general_and_deposit_regulations": {
+      "monthly_deposit_limit_debit_credit": "3000 JOD [cite: 106]",
+      "daily_transaction_count_limit": "15 transactions [cite: 107]",
+      "dormant_account_monthly_fee": "2.0 JOD [cite: 108]",
+      "deposit_methods": {
+        "agent_deposit": {
+          "fee": 0,
+          "daily_limit": "2000 JOD [cite: 110]",
+          "max_daily_transactions": "5 [cite: 110]"
+        },
+        "cardless_atm_deposit_internal_jordan": {
+          "housing_bank": "Free [cite: 112]",
+          "other_banks": "1.0 JOD [cite: 113]",
+          "daily_limit": "500 JOD [cite: 114]",
+          "max_daily_transactions": "10 [cite: 114]"
+        },
+        "efawateercom_deposit": {
+          "tiers": [
+            {"min": 5, "max": 50, "fee": "0.20 JOD [cite: 116]"},
+            {"min": 50.01, "max": 100, "fee": "0.25 JOD [cite: 117]"},
+            {"min": 100.01, "max": 200, "fee": "0.50 JOD [cite: 118]"},
+            {"min": 200.01, "max": 1000, "fee": "1.0 JOD [cite: 119]"}
+          ],
+          "daily_limit": "1000 JOD [cite: 120]",
+          "max_daily_transactions": "6 [cite: 120]"
+        }
+      }
+    },
+    "inquiry_and_withdrawal_fees": {
+      "balance_inquiry": {
+        "local_atm_with_card": {"fee": "0.500 JOD [cite: 122]", "tx_limit": "Unlimited"},
+        "housing_bank_atm_cardless": {"fee": "0 [cite: 123]", "tx_limit": "Unlimited"}
+      },
+      "cash_withdrawal": {
+        "authorized_agents": {
+          "tiers": [
+            {"min": 1, "max": 50, "fee": "0.50 JOD [cite: 126]"},
+            {"min": 50.01, "max": "unlimited", "fee": "1.0 JOD [cite: 127]"}
+          ],
+          "daily_limit": "2000 JOD [cite: 128]",
+          "max_daily_transactions": "5 [cite: 128]"
+        },
+        "local_atm_with_card": {
+          "fee": "1.0 JOD [cite: 129]",
+          "daily_limit": "250 JOD [cite: 129]",
+          "max_daily_transactions": "5 [cite: 129]"
+        },
+        "local_atm_cardless": {
+          "housing_bank": "0.50 JOD [cite: 131]",
+          "other_banks": "1.0 JOD [cite: 132]",
+          "daily_limit": "500 JOD [cite: 133]",
+          "max_daily_transactions": "10 [cite: 133]"
+        },
+        "international_atm": {
+          "fee": "Variable based on bank/country [cite: 134]",
+          "daily_limit": "250 JOD [cite: 134]",
+          "max_daily_transactions": "5 [cite: 134]"
+        }
+      }
+    },
+    "transfer_regulations": {
+      "transfers": {
+        "orange_to_orange": {"fee": 0, "daily_limit": "2000 JOD [cite: 136]", "max_daily_tx": 10},
+        "to_other_mobile_wallets": {"fee": 0, "daily_limit": "2000 JOD [cite: 137]", "max_daily_tx": 10},
+        "to_bank_account_alias_iban": {
+          "tiers": [
+            {"min": 1, "max": 50, "fee": "0.15 JOD [cite: 139]"},
+            {"min": 51, "max": 200, "fee": "0.25 JOD [cite: 140]"},
+            {"min": 201, "max": 1000, "fee": "0.35 JOD [cite: 141]"},
+            {"min": 1000.01, "max": "unlimited", "fee": "0.70 JOD [cite: 142]"}
+          ],
+          "daily_limit": "2000 JOD [cite: 143]",
+          "max_daily_transactions": "10 [cite: 143]"
+        },
+        "international_transfer_send_receive": {
+          "fee": "Variable based on country/exchange rate [cite: 144]",
+          "daily_limit": "3000 JOD [cite: 144]",
+          "max_daily_transactions": "10 [cite: 144]"
+        },
+        "cliq_p2b_business": {
+          "fee": "Per agreement with service provider [cite: 145]",
+          "limit": "2000 JOD [cite: 145]",
+          "max_transactions": "15 [cite: 145]"
+        }
+      }
+    },
+    "services_and_shopping_rules": {
+      "payments": {
+        "efawateercom": {
+          "fee": "Per eFAWATEERcom standard rates [cite: 147]",
+          "monthly_limit": "3000 JOD [cite: 147]",
+          "max_monthly_transactions": "200 [cite: 147]"
+        },
+        "visa_pos_local": {"fee": 0, "monthly_limit": "2000 JOD [cite: 148]", "max_monthly_tx": 200},
+        "visa_international_shopping_jod": {"fee": "Exchange rate based [cite: 149]", "monthly_limit": "3000 JOD", "max_monthly_tx": 200},
+        "visa_card_issuance": "5.0 JOD [cite: 150]",
+        "visa_shopping_intl_foreign_currency": {"fee": "Exchange rate based [cite: 152]", "monthly_limit": 3000, "max_monthly_tx": 200},
+        "orange_topup": {"fee": "0.30 JOD [cite: 153]", "monthly_limit": 100, "max_monthly_tx": 10},
+        "orange_bill_payment": {"fee": 0, "monthly_limit": "2000 JOD [cite: 154]", "max_monthly_tx": 500},
+        "orange_jo_website_payments": {"monthly_limit": "2000 JOD [cite: 155]", "max_monthly_tx": 10},
+        "jood_app_payments": {"monthly_limit": "100 JOD [cite: 156]", "max_monthly_tx": 10},
+        "otp_purchases": {"fee": 0, "monthly_limit": "2000 JOD [cite: 157]", "tx_limit": "Unlimited"},
+        "digital_vouchers": {"fee": 0, "daily_limit": "500 JOD [cite: 158]", "max_daily_tx": 10},
+        "qr_code_payments": {"fee": 0, "monthly_limit": "2000 JOD [cite: 159]", "max_monthly_tx": 500}
+      }
+    },
+    "consumer_rights_and_legal": {
+      "complaints": {
+        "rights": "Right to complain to CBJ (06-4630301) if unresolved after 30 days [cite: 161]",
+        "fees": "0 [cite: 162]",
+        "licensing": "Licensed by the Central Bank of Jordan [cite: 163]"
+      }
+    }
+  }
+}

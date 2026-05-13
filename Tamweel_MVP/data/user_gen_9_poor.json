@@ -1,0 +1,45 @@
+{
+    "user_id": "7205e55d-73d4-4f98-9ed4-562df0baa164",
+    "name": "عمر النعيمات",
+    "profile_type": "poor",
+    "alternative_data": {
+        "bill_payments": [
+            {
+                "biller": "Electricity",
+                "amount_jod": 26,
+                "status": "Late",
+                "month": "2026-01"
+            },
+            {
+                "biller": "Electricity",
+                "amount_jod": 30,
+                "status": "Late",
+                "month": "2026-03"
+            },
+            {
+                "biller": "Water",
+                "amount_jod": 40,
+                "status": "Late",
+                "month": "2026-03"
+            },
+            {
+                "biller": "Electricity",
+                "amount_jod": 16,
+                "status": "On-time",
+                "month": "2026-01"
+            }
+        ],
+        "income_transfers": [
+            {
+                "source": "ZainCash Deposit",
+                "amount_jod": 73,
+                "date": "2026-03-15"
+            },
+            {
+                "source": "CliQ Transfer",
+                "amount_jod": 81,
+                "date": "2026-01-15"
+            }
+        ]
+    }
+}

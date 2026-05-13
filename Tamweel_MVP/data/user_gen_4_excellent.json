@@ -1,0 +1,45 @@
+{
+    "user_id": "e533ed07-ca15-4b68-8b14-c0e90f2148c7",
+    "name": "أحمد المجالي",
+    "profile_type": "excellent",
+    "alternative_data": {
+        "bill_payments": [
+            {
+                "biller": "Electricity",
+                "amount_jod": 17,
+                "status": "On-time",
+                "month": "2026-04"
+            },
+            {
+                "biller": "Zain",
+                "amount_jod": 16,
+                "status": "On-time",
+                "month": "2026-05"
+            },
+            {
+                "biller": "Zain",
+                "amount_jod": 29,
+                "status": "On-time",
+                "month": "2026-01"
+            },
+            {
+                "biller": "Electricity",
+                "amount_jod": 54,
+                "status": "On-time",
+                "month": "2026-05"
+            }
+        ],
+        "income_transfers": [
+            {
+                "source": "ZainCash Deposit",
+                "amount_jod": 501,
+                "date": "2026-01-15"
+            },
+            {
+                "source": "ZainCash Deposit",
+                "amount_jod": 358,
+                "date": "2026-03-15"
+            }
+        ]
+    }
+}

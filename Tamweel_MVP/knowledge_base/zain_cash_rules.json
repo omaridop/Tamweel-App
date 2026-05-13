@@ -1,0 +1,91 @@
+{
+  "zain_cash_rules": {
+    "transaction_limits": {
+      "local_limits": {
+        "bill_payments": { "per_tx": 10000, "daily": 25000, "monthly": 50000, "_ref": "[cite: 38]" },
+        "online_shopping": { "per_tx": 3000, "daily": 3000, "monthly": 3000, "_ref": "[cite: 39]" },
+        "pos_purchases": { "per_tx": 3000, "daily": 3000, "monthly": 3000, "_ref": "[cite: 40]" },
+        "atm_withdrawal_no_card": { "per_tx": "Depends on ATM", "daily": 3000, "monthly": 3000, "_ref": "[cite: 41]" },
+        "agent_kiosk_centers_withdrawal": { "per_tx": 1000, "daily": 3000, "monthly": 3000, "_ref": "[cite: 42]" },
+        "atm_withdrawal_with_card": { "per_tx": "Depends on ATM", "daily": 3000, "monthly": 3000, "_ref": "[cite: 43]" },
+        "donations": { "per_tx": 2000, "daily": 2000, "monthly": 3000, "_ref": "[cite: 44]" },
+        "digital_cards": { "daily": 350, "monthly": 1000, "_ref": "[cite: 45]" },
+        "cliq_transfers": { "per_tx": 2000, "daily": 3000, "monthly": 3000, "_ref": "[cite: 46]" },
+        "recharge_app": { "daily": 500, "monthly": 2500, "_ref": "[cite: 47]" },
+        "merchant_transfer_qr_app": { "per_tx": 2000, "daily": 3000, "monthly": 3000, "_ref": "[cite: 48]" }
+      },
+      "international_limits": {
+        "online_shopping_pos": { "per_tx": 3000, "daily": 3000, "monthly": 3000, "_ref": "[cite: 50]" },
+        "atm_withdrawal_with_card": { "per_tx": "Depends on ATM", "daily": 3000, "monthly": 3000, "_ref": "[cite: 51]" },
+        "international_transfers": { "daily": 3000, "monthly": 3000, "_ref": "[cite: 52]" }
+      }
+    },
+    "service_fees": {
+      "registration": "Free [cite: 54]",
+      "deposit_fees": {
+        "zain_centers": "Free [cite: 55]",
+        "atm_deposit": "Depends on ATM [cite: 56]",
+        "efawateercom": [
+          { "condition": "<= 50 JOD", "fee": 0.2, "_ref": "[cite: 58]" },
+          { "condition": "> 50 AND <= 100 JOD", "fee": 0.25, "_ref": "[cite: 59]" },
+          { "condition": "> 100 AND < 200 JOD", "fee": 0.5, "_ref": "[cite: 60]" },
+          { "condition": "> 200 JOD", "fee": 1.0, "_ref": "[cite: 61]" }
+        ],
+        "max_wallet_balance": "25000 JOD [cite: 62]"
+      },
+      "transfer_fees": {
+        "zain_to_zain": "Free [cite: 64]",
+        "cliq_external": {
+          "tax_note": "Includes 2% sales tax [cite: 65]",
+          "tiers": [
+            { "condition": "<= 50 JOD", "fee": 0.16, "_ref": "[cite: 66]" },
+            { "condition": "> 50 AND <= 200 JOD", "fee": 0.27, "_ref": "[cite: 67]" },
+            { "condition": "> 200 JOD", "fee": 0.40, "_ref": "[cite: 68]" }
+          ]
+        },
+        "western_union": "Variable per destination [cite: 69]",
+        "merchant_payment": "Variable per activity [cite: 70]"
+      }
+    },
+    "withdrawal_and_hardware_fees": {
+      "cash_withdrawal_no_atm": {
+        "tier_1": { "condition": "<= 20 JOD", "fee": 0.5, "_ref": "[cite: 73]" },
+        "tier_2": { "condition": "> 20 AND <= 50 JOD", "fee": 0.75, "_ref": "[cite: 74]" },
+        "tier_3": { "condition": "> 50 JOD", "fee": 1.0, "_ref": "[cite: 75]" }
+      },
+      "zain_center_withdrawal": { "via_customer_service": "2.0 JOD [cite: 77]", "via_atm": "1.0 JOD [cite: 78]" },
+      "atm_withdrawal_card": "1.0 JOD [cite: 79]",
+      "hardware_issuance_renewal": {
+        "prepaid_card": "5.0 JOD [cite: 85]",
+        "sticker": "3.0 JOD [cite: 86]",
+        "bracelet": "12.0 JOD [cite: 87]"
+      },
+      "dormant_account_fee": "2.0 JOD [cite: 82]",
+      "international_fx_fee": "2.7% to 3.5% + 0.10 JOD if amount < 11 JOD [cite: 81]"
+    },
+    "credit_card_regulations": {
+      "general_fees": {
+        "issuance": "Free [cite: 89]",
+        "replacement": "10.0 JOD [cite: 90]",
+        "reactivation": "10.0 JOD [cite: 91]",
+        "statement_print": "1.0 JOD [cite: 92]",
+        "atm_objection": { "fee": 5.0, "refundable_if_valid": true, "_ref": "[cite: 93]" }
+      },
+      "usage_fees": {
+        "atm_cash_withdrawal": { "fee": 4.0, "max_tx_limit": 250, "_ref": "[cite: 94]" },
+        "foreign_currency_commission": "3% [cite: 95]"
+      },
+      "monthly_admin_fees": {
+        "note": "Applicable for flexible payment; waived for full settlement [cite: 97]",
+        "classic": "6.5 JOD [cite: 98]",
+        "platinum": "12.5 JOD [cite: 99]",
+        "global": "40.0 JOD [cite: 100]"
+      },
+      "annual_renewal_fees": {
+        "classic": "15.0 JOD [cite: 102]",
+        "platinum": "25.0 JOD [cite: 103]",
+        "global": "50.0 JOD [cite: 104]"
+      }
+    }
+  }
+}

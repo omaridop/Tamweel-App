@@ -1,0 +1,51 @@
+{
+    "user_id": "9c74f51f-591e-4137-9769-4e2f955a1fb3",
+    "name": "علي الخالدي",
+    "profile_type": "poor",
+    "alternative_data": {
+        "bill_payments": [
+            {
+                "biller": "Water",
+                "amount_jod": 24,
+                "status": "Late",
+                "month": "2026-01"
+            },
+            {
+                "biller": "Orange",
+                "amount_jod": 36,
+                "status": "Late",
+                "month": "2026-01"
+            },
+            {
+                "biller": "Zain",
+                "amount_jod": 32,
+                "status": "Late",
+                "month": "2026-01"
+            },
+            {
+                "biller": "Water",
+                "amount_jod": 56,
+                "status": "On-time",
+                "month": "2026-02"
+            },
+            {
+                "biller": "Orange",
+                "amount_jod": 20,
+                "status": "On-time",
+                "month": "2026-01"
+            }
+        ],
+        "income_transfers": [
+            {
+                "source": "CliQ Transfer",
+                "amount_jod": 76,
+                "date": "2026-02-15"
+            },
+            {
+                "source": "CliQ Transfer",
+                "amount_jod": 75,
+                "date": "2026-01-15"
+            }
+        ]
+    }
+}

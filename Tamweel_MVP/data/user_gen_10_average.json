@@ -1,0 +1,57 @@
+{
+    "user_id": "9eb5951b-a11a-4bc1-8ba5-0837a75d301b",
+    "name": "طارق العمر",
+    "profile_type": "average",
+    "alternative_data": {
+        "bill_payments": [
+            {
+                "biller": "Water",
+                "amount_jod": 23,
+                "status": "On-time",
+                "month": "2026-05"
+            },
+            {
+                "biller": "Water",
+                "amount_jod": 58,
+                "status": "Late",
+                "month": "2026-04"
+            },
+            {
+                "biller": "Electricity",
+                "amount_jod": 40,
+                "status": "On-time",
+                "month": "2026-04"
+            },
+            {
+                "biller": "Electricity",
+                "amount_jod": 18,
+                "status": "On-time",
+                "month": "2026-05"
+            },
+            {
+                "biller": "Zain",
+                "amount_jod": 33,
+                "status": "On-time",
+                "month": "2026-04"
+            },
+            {
+                "biller": "Electricity",
+                "amount_jod": 18,
+                "status": "Late",
+                "month": "2026-05"
+            }
+        ],
+        "income_transfers": [
+            {
+                "source": "CliQ Transfer",
+                "amount_jod": 171,
+                "date": "2026-02-15"
+            },
+            {
+                "source": "ZainCash Deposit",
+                "amount_jod": 232,
+                "date": "2026-03-15"
+            }
+        ]
+    }
+}

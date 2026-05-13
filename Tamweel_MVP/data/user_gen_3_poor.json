@@ -1,0 +1,45 @@
+{
+    "user_id": "10549172-4672-44fd-bcbc-313224496178",
+    "name": "نور الحداد",
+    "profile_type": "poor",
+    "alternative_data": {
+        "bill_payments": [
+            {
+                "biller": "Electricity",
+                "amount_jod": 40,
+                "status": "Late",
+                "month": "2026-05"
+            },
+            {
+                "biller": "Water",
+                "amount_jod": 30,
+                "status": "Late",
+                "month": "2026-05"
+            },
+            {
+                "biller": "Electricity",
+                "amount_jod": 46,
+                "status": "Late",
+                "month": "2026-02"
+            },
+            {
+                "biller": "Zain",
+                "amount_jod": 48,
+                "status": "Late",
+                "month": "2026-05"
+            }
+        ],
+        "income_transfers": [
+            {
+                "source": "ZainCash Deposit",
+                "amount_jod": 59,
+                "date": "2026-02-15"
+            },
+            {
+                "source": "CliQ Transfer",
+                "amount_jod": 80,
+                "date": "2026-05-15"
+            }
+        ]
+    }
+}
